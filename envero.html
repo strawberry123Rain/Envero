@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envero - Newsec's Sustainability Platform</title>
+    <meta name="description" content="Collect, analyze and report ESG data to support sustainable decisions and meet EU Taxonomy and CSRD requirements.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="progress-bar" id="progressBar"></div>
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="./images/newsec-logo.png" alt="Newsec Logo" class="logo">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#users" class="nav-link">Users</a></li>
+                    <li><a href="#roadmap" class="nav-link">Roadmap</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="./video/hero-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Envero</h1>
+                <p class="hero-subtitle">Newsec's Sustainability Platform</p>
+                <p class="hero-description">
+                    Collect, analyze and report ESG data to support sustainable decisions and meet EU Taxonomy and CSRD requirements.
+                </p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary">Book Demo</button>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-preview">
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">ESG Compliance</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Real-time Monitoring</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">EU</div>
+                        <div class="stat-label">Taxonomy Ready</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Platform Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="./images/energy-dashboard.png" alt="Energy Consumption Dashboard" loading="lazy">
+                    </div>
+                    <h3>Energy Consumption</h3>
+                    <p>Total energy monitoring for heating, cooling and technical systems.</p>
+                    <span class="feature-source">Vitec Energy Monitoring</span>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="./images/water-dashboard.png" alt="Water Consumption Dashboard" loading="lazy">
+                    </div>
+                    <h3>Water Consumption</h3>
+                    <p>Resource efficiency through water consumption tracking.</p>
+                    <span class="feature-source">Vitec Energy Monitoring</span>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="./images/certifications-dashboard.png" alt="EPC Certifications Dashboard" loading="lazy">
+                    </div>
+                    <h3>EPC Certificates</h3>
+                    <p>EPC compliance A-G classification, certificate tracking.</p>
+                    <span class="feature-source">Boverket</span>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="./images/emissions-dashboard.png" alt="Emissions Dashboard" loading="lazy">
+                    </div>
+                    <h3>Emissions</h3>
+                    <p>Scope 1-3 emissions calculation for CSRD and EU Taxonomy.</p>
+                    <span class="feature-source">Vitec Energy Management</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Showcase -->
+    <section class="dashboard-showcase">
+        <div class="container">
+            <h2 class="section-title">Powerful Dashboards for Complete Overview</h2>
+            <div class="dashboard-grid">
+                <div class="dashboard-item" data-image="./images/energy-dashboard.png">
+                    <img src="./images/energy-dashboard.png" alt="Energy Dashboard" loading="lazy">
+                </div>
+                <div class="dashboard-item" data-image="./images/water-dashboard.png">
+                    <img src="./images/water-dashboard.png" alt="Water Dashboard" loading="lazy">
+                </div>
+                <div class="dashboard-item" data-image="./images/certifications-dashboard.png">
+                    <img src="./images/certifications-dashboard.png" alt="Certifications Dashboard" loading="lazy">
+                </div>
+                <div class="dashboard-item" data-image="./images/emissions-dashboard.png">
+                    <img src="./images/emissions-dashboard.png" alt="Emissions Dashboard" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Users Section -->
+    <section id="users" class="users">
+        <div class="container">
+            <h2 class="section-title">Who Uses Envero</h2>
+            <div class="users-grid">
+                <div class="user-card">
+                    <div class="user-icon">🏢</div>
+                    <h3>Property Owners</h3>
+                    <p>Monitor and optimize your property portfolio's sustainability performance and compliance.</p>
+                </div>
+                <div class="user-card">
+                    <div class="user-icon">👥</div>
+                    <h3>Tenants</h3>
+                    <p>Access real-time data on your space's environmental impact and efficiency metrics.</p>
+                </div>
+                <div class="user-card">
+                    <div class="user-icon">🔧</div>
+                    <h3>Property Managers</h3>
+                    <p>Streamline operations with comprehensive ESG reporting and compliance tools.</p>
+                </div>
+                <div class="user-card">
+                    <div class="user-icon">💼</div>
+                    <h3>Finance & Management</h3>
+                    <p>Make data-driven decisions with ESG insights and sustainability reporting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="roadmap">
+        <div class="container">
+            <h2 class="section-title">Development Roadmap</h2>
+            <div class="timeline">
+                <div class="timeline-item current">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Now</h3>
+                        <p>Power BI Foundation</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Q2 2025</h3>
+                        <p>Newsec Online Integration</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Q3-Q4 2025</h3>
+                        <p>Standalone Digital Product</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>2026+</h3>
+                        <p>AI Hub & Complete ESG</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-person">
+                        <img src="./images/johnny-nybacka.jpg" alt="Johnny Nybacka" class="contact-image" loading="lazy">
+                        <div class="contact-details">
+                            <h3>Johnny Nybacka</h3>
+                            <p class="contact-title">Energy Management</p>
+                            <p class="contact-email">johnny.nybacka@newsec.se</p>
+                            <p class="contact-location">Newsec Stockholm</p>
+                            <p class="contact-phone">08-454 40 00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Company">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./images/newsec-logo.png" alt="Newsec Logo">
+                </div>
+                <p>&copy; 2024 Newsec. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
