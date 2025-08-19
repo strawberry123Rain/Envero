@@ -128,7 +128,7 @@ body {
     overflow: hidden;
 }
 
-.hero-video {
+.hero-image {
     position: absolute;
     top: 0;
     left: 0;
@@ -642,6 +642,10 @@ section {
         display: flex;
     }
     
+    .hero-image {
+        object-position: center;
+    }
+    
     .hero-content {
         grid-template-columns: 1fr;
         text-align: center;
@@ -701,6 +705,10 @@ section {
 @media (max-width: 480px) {
     .container {
         padding: 0 15px;
+    }
+    
+    .hero-image {
+        object-position: center;
     }
     
     .hero-title {

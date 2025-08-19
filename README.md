@@ -17,18 +17,18 @@ En professionell landing page för Envero, Newsecs hållbarhetsplattform för ES
 
 ```
 envero-landing/
-├── envero.html          # Huvudfil
+├── index.html           # Huvudfil (tidigare envero.html)
 ├── styles.css           # CSS-stilar
 ├── script.js            # JavaScript-funktionalitet
 ├── images/              # Bildmapp
 │   ├── newsec-logo.png
+│   ├── hero-image.jpg
 │   ├── energy-dashboard.png
 │   ├── water-dashboard.png
 │   ├── certifications-dashboard.png
 │   ├── emissions-dashboard.png
 │   └── johnny-nybacka.jpg
-├── video/               # Videomapp
-│   └── hero-video.mp4
+├── video/               # Videomapp (för framtida användning)
 └── README.md            # Denna fil
 ```
 
@@ -45,26 +45,26 @@ envero-landing/
 1. **Ladda ner alla filer** till en mapp
 2. **Lägg till bilder** i `./images/` mappen:
    - `newsec-logo.png` - Newsec logotyp
+   - `hero-image.jpg` - Hero bakgrundsbild
    - `energy-dashboard.png` - Energidashboard
    - `water-dashboard.png` - Vattendashboard
    - `certifications-dashboard.png` - Certifikatdashboard
    - `emissions-dashboard.png` - Utsläppsdashboard
    - `johnny-nybacka.jpg` - Kontaktperson
-3. **Lägg till video** i `./video/` mappen:
-   - `hero-video.mp4` - Hero-sektionens bakgrundsvideo
-4. **Öppna `envero.html`** i en webbläsare
+3. **Öppna `index.html`** i en webbläsare
 
 ## 📱 Sektioner
 
 ### 1. Header
 - Glassmorphism navigation med Newsec logo
+- Progress bar som visar scroll-förlopp
 - Menu: Funktioner, Användare, Roadmap, Kontakt
 - Responsiv hamburger-meny för mobil
 
 ### 2. Hero
-- Bakgrundsvideo med autoplay
-- Gradient overlay
+- Bakgrundsbild (hero-image.jpg) med blå-orange gradient overlay
 - Titel "Envero" med gradient text
+- Statistik-kort: 100% ESG Compliance, 24/7 Real-time Monitoring, EU Taxonomy Ready
 - CTA-knappar: "Boka Demo" + "Läs mer"
 
 ### 3. Funktioner (2x2 Grid)
@@ -109,7 +109,7 @@ Redigera CSS-variabler i `styles.css`:
 ```
 
 ### Ändra innehåll
-Redigera text i `envero.html` för att anpassa:
+Redigera text i `index.html` för att anpassa:
 - Sektionstitlar
 - Beskrivningar
 - Kontaktinformation
@@ -130,6 +130,7 @@ Kopiera en befintlig sektion och anpassa innehållet.
 - Optimerade CSS-animationer
 - Minimerade DOM-manipulationer
 - Smooth scrolling med CSS
+- Progress bar för scroll-förlopp
 
 ## 🌐 Browser Support
 

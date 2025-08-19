@@ -342,24 +342,24 @@ function initLazyLoading() {
     }
 }
 
-// Parallax effect for hero section
-function initParallax() {
-    const hero = document.querySelector('.hero');
-    const heroVideo = document.querySelector('.hero-video');
-    
-    if (hero && heroVideo) {
-        window.addEventListener('scroll', function() {
-            const scrolled = window.pageYOffset;
-            const rate = scrolled * -0.5;
-            heroVideo.style.transform = `translateY(${rate}px)`;
-        });
-    }
-}
+// Parallax effect for hero section (disabled - using image instead of video)
+// function initParallax() {
+//     const hero = document.querySelector('.hero');
+//     const heroVideo = document.querySelector('.hero-video');
+//     
+//     if (hero && heroVideo) {
+//         window.addEventListener('scroll', function() {
+//             const scrolled = window.pageYOffset;
+//             const rate = scrolled * -0.5;
+//             heroVideo.style.transform = `translateY(${rate}px)`;
+//         });
+//     }
+// }
 
 // Initialize additional features
 document.addEventListener('DOMContentLoaded', function() {
     initLazyLoading();
-    initParallax();
+    // initParallax(); // Disabled - using image instead of video
     
     // Animate progress bar on page load
     const progressBar = document.getElementById('progressBar');
